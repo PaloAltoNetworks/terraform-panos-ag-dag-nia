@@ -96,7 +96,7 @@ provider "panos" {
 task {
   name = <name of the task (has to be unique)> # eg. "Create_DAG_on_PANOS1"
   description = <description of the task> # eg. "Dynamic Address Groups based on service definition"
-  source = "devarshishah3/dag-nia/panos" # to be updated
+  source = "devarshishah3/ag-dag-nia/panos" # to be updated
   providers = ["panos.panos1"]
   services = ["<list of services you want to subscribe to>"] # eg. ["web", "api"]
   variable_files = ["<list of files that have user variables for this module (please input full path)>"] # eg. ["/opt/panw-config/user-demo.tfvars"]
