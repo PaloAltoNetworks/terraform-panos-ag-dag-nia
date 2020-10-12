@@ -12,7 +12,7 @@ This module supports the following:
 * Create, update and delete Address Group based on the services in Consul catalog.
 * Create, update and delete Dynamic Address Tags based service name and IP address for the service in Consul catalog. If service address is not defined in Consul catalog, node address is used instead.
 
-If there is a missing feature or a bug - - [open an issue (to be updated) ](https://github.com/devarshishah3/terraform-panos-dag-nia/issues/new)
+If there is a missing feature or a bug - - [open an issue](https://github.com/PaloAltoNetworks/terraform-panos-ag-dag-nia/issues)
 
 ## What is consul-terraform-sync?
 
