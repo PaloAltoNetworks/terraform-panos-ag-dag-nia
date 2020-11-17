@@ -88,6 +88,7 @@ consul {
 provider "panos" {
   alias = "panos1" 
   hostname = "<panos_address>" # eg. "2.2.2.2"
+  username = "<admin_username>" # Username the API key is associated with for partial commit
   api_key  = "<api_key>" 
 }
 
